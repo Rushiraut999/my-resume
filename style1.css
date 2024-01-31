@@ -1,0 +1,559 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(10, 9, 31);
+    color: white;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    position: sticky;
+    top: 0.1px;
+    justify-content: end;
+    z-index: 3;
+    padding-top: 20px;
+}
+
+.image {
+    width: 120px;
+    position: absolute;
+    left: 5px;
+    top: -9px;
+    background-color: transparent;
+    z-index: 5;
+}
+
+.navbar a {
+    font-size: 2rem;
+    margin-right: 30px;
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+.navbar a:hover {
+    color: #64CCC5;
+}
+
+.resume {
+    background-color: rgb(14, 97, 205);
+    padding: 15px;
+    border-radius: 8px;
+    margin-right: 30px;
+    font-size: 1rem;
+
+
+
+}
+
+.navbar i {
+    background-color: transparent;
+}
+
+.main h1 {
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+.main h2 {
+    font-size: 3.8rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+}
+
+.my_photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 100px;
+    height: 500px;
+}
+
+.my_photo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    border-radius: 50%;
+    align-items: center;
+    z-index: 2;
+    position: relative;
+    top: -730px;
+}
+
+.line1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border-top: 7px solid #060493;
+    background-color: transparent;
+    animation: round 1s infinite;
+}
+
+.line2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border-bottom: 7px solid #64CCC5;
+    background-color: transparent;
+    animation: round 1s infinite;
+    position: relative;
+    top: -400px;
+}
+
+
+@keyframes round {
+    0% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.about {
+    height: 911px;
+}
+
+.about p {
+    font-size: 30px;
+    position: relative;
+    top: 110px;
+    background-color: transparent;
+    margin-left: 20px;
+    color: rgb(186, 184, 180);
+}
+
+.about img {
+    float: right;
+    width: 600px;
+    height: 500px;
+    margin-right: 20px;
+    position: relative;
+    top: 150px;
+
+}
+
+h2 {
+    font-size: 50px;
+    position: relative;
+    top: 70px;
+    display: inline;
+    margin: 30px;
+    color: rgb(230, 228, 224);
+
+}
+
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 200px;
+    left: 30px;
+}
+
+.skill-main {
+    display: flex;
+
+}
+
+.html {
+    background-color: transparent;
+    border: 5px solid #64CCC5;
+    width: 150px;
+    height: 200px;
+    position: relative;
+    margin-right: 10px;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+.html:hover {
+    background-color: rgba(10, 212, 248, 0.714);
+
+}
+
+.html:hover html p {
+    color: aliceblue;
+}
+
+.html img {
+    width: 150px;
+    height: 150px;
+    background-color: transparent;
+}
+
+.html p {
+    font-size: 2.3rem;
+    background-color: transparent;
+    margin-left: 12px;
+    position: relative;
+    top: -10px;
+    color: width;
+}
+
+.css {
+    background-color: transparent;
+    border: 5px solid #64CCC5;
+    width: 150px;
+    height: 200px;
+    margin-right: 10px;
+    position: relative;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+.css:hover {
+    background-color: rgba(10, 212, 248, 0.714);
+
+}
+
+.css img {
+    width: 150px;
+    height: 150px;
+    background-color: transparent;
+}
+
+.css p {
+    font-size: 2.3rem;
+    background-color: transparent;
+    margin-left: 26px;
+    position: relative;
+    top: -10px;
+    color: width;
+}
+
+.js {
+    background-color: transparent;
+    border: 5px solid #64CCC5;
+    width: 150px;
+    height: 200px;
+    position: relative;
+    border-radius: 30px;
+    transition: 1s;
+    margin-right: 10px;
+}
+
+.js:hover {
+    background-color: rgba(10, 212, 248, 0.714);
+
+}
+
+.js img {
+    width: 150px;
+    height: 150px;
+    background-color: transparent;
+}
+
+.js p {
+    font-size: 2.3rem;
+    background-color: transparent;
+    margin-left: 2px;
+    position: relative;
+    top: -10px;
+    color: white;
+}
+
+.skill-img {
+    width: 50%;
+    position: relative;
+    top: 18px;
+    left: 50px;
+}
+
+.project-heding {
+    position: relative;
+    top: 100px;
+
+}
+
+.project {
+    position: relative;
+    height: 900px;
+    display: flex;
+    top: 200px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.amezon {
+    background-color: rgb(19, 18, 54);
+    width: 490px;
+    height: 350px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 2px solid aqua;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+}
+
+.amezon h3 {
+    background-color: rgb(19, 18, 54);
+    font-size: 2.9rem;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.amezon img {
+    width: auto;
+
+}
+
+.a-tag {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.githube {
+    width: 40px;
+    height: 30px;
+    font-size: 2.5rem;
+    background-color: transparent;
+    position: relative;
+    top: 10px;
+    right: 10px;
+
+    text-decoration: none;
+}
+
+.githube i:hover {
+    color: #64CCC5;
+}
+
+.link {
+    width: 40px;
+    height: 30px;
+    font-size: 2.5rem;
+    background-color: transparent;
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+}
+
+.link i:hover {
+    color: #64CCC5;
+}
+
+.githube i {
+    background-color: transparent;
+}
+
+.link i {
+    background-color: transparent;
+}
+
+.calculator {
+    background-color: rgb(19, 18, 54);
+    width: 490px;
+    height: 350px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 2px solid aqua;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+}
+
+.calculator h3 {
+    background-color: rgb(19, 18, 54);
+    font-size: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.calculator img {
+    width: auto;
+}
+
+.contact {
+    margin-left: 50px;
+    height: 900px;
+    width: 900px;
+}
+
+.reach-out {
+    color: rgb(187, 189, 192);
+    position: relative;
+    top: 70px;
+    left: 30px;
+    font-size: 2.4rem;
+    width: 500px;
+}
+
+.email {
+    color: rgb(187, 189, 192);
+    position: relative;
+    top: 150px;
+    left: 30px;
+    font-size: 2rem;
+    width: 500px;
+}
+
+.my-email {
+    font-size: 2.8rem;
+    position: relative;
+    top: 170px;
+    left: 30px;
+    color: rgb(118, 90, 242);
+    width: 500px;
+}
+
+.call {
+    color: rgb(187, 189, 192);
+    position: relative;
+    top: 194px;
+    left: 30px;
+    font-size: 2rem;
+    width: 500px;
+}
+
+.my-no {
+    font-size: 2.8rem;
+    position: relative;
+    top: 210px;
+    left: 30px;
+    color: rgb(118, 90, 242);
+    width: 500px;
+}
+
+.follow {
+    color: rgb(187, 189, 192);
+    position: relative;
+    top: 230px;
+    left: 30px;
+    font-size: 2rem;
+    width: 500px;
+
+}
+
+.linkedin {
+    position: relative;
+    top: 260px;
+    left: 30px;
+    font-size: 2.5rem;
+
+}
+
+.linkedin i {
+    padding: 8px;
+    border-radius: 12px;
+    background-color: #f0f0f5;
+    color: #020ef9;
+    transition: 1s;
+}
+
+.linkedin:hover i {
+    background-color: #0808ff;
+    color: #e6e5eb;
+}
+
+.github {
+    position: relative;
+    top: 260px;
+    left: 40px;
+    font-size: 3rem;
+}
+
+.github i {
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.github i:hover {
+    color: white;
+    background-color: black;
+
+}
+
+.instagram {
+    position: relative;
+    top: 260px;
+    left: 50px;
+    font-size: 3rem;
+}
+
+.instagram i {
+    color: rgb(240, 9, 248);
+    background-color: white;
+    width: 42px;
+    height: 44px;
+    border-radius: 32px;
+    transition: 1s;
+}
+
+.instagram i:hover {
+    background-color: rgb(240, 9, 248);
+    color: white;
+}
+
+@media only screen and (max-width:1000px) {
+   .about h2{
+    top:50px;
+   }
+    .skill {
+        left: 50px;
+    }
+
+    h2 {
+        top: 140px;
+        left: 30px;
+    }
+    .skill-img {
+       left: 0px;
+    }
+    
+    .project {
+        top: 400px;
+    }
+
+    .project-heding {
+        position: relative;
+        top: 300px;
+
+    }
+
+    .amezon {
+        top: 300px;
+        width: 790px;
+        height: 500px;
+
+    }
+
+    .calculator {
+        POSITION: relative;
+        TOP: 30px;
+        width: 790px;
+        height: 500px;
+    }
+
+    .contact {
+        position: relative;
+        top: 550px;
+    }
+    .contact h2{
+        top:10px;
+        left:30px;
+    }
+}
