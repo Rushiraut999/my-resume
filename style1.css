@@ -79,12 +79,13 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 250px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     align-items: center;
     z-index: 2;
     position: relative;
-    top: -730px;
+    top: -780px;
 }
 
 .line1 {
